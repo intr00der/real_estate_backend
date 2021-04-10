@@ -37,8 +37,8 @@ def make_thumbnail(estate_object):
     return True
 
 
-# проверяет ценовые значения, вычисляет скидочную цену, заменяет в объекте модели и возвращает объект
-# на всякий случай, скидочная цена должна быть в бэкенде, так же, как и обычная
+# валидирует ценовые значения, вычисляет скидочную цену, возвращает три значения в словаре
+# скидочная цена должна быть в бэкенде, так же, как и обычная
 def apply_discount(estate_default_price, estate_discount):
     default_price_float = float(estate_default_price)
     discount_float = float(estate_discount)
