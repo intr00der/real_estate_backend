@@ -1,0 +1,7 @@
+venv/
+.idea/
+.env
+front/
+main/
+todo
+__pycache__/
