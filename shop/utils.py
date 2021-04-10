@@ -6,7 +6,7 @@ from io import BytesIO
 from decimal import Decimal
 
 
-# сделать превью-картинку к основной
+# делает превью-картинку к основной
 # без гордости скопировано со стака
 def make_thumbnail(estate_object):
     image = Image.open(estate_object.primary_image)
