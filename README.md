@@ -33,7 +33,7 @@ sudo cp other/absolute/path/to/.env absolute/path/to/real_estate_backend/conf/.e
 ```
 ### Go back to the project root directory
 ```
-cd /absolute/path/to.real_estate_backend
+cd /absolute/path/to/real_estate_backend
 ```
 ### Run the Django server
 ```
